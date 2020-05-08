@@ -12,6 +12,9 @@ git status --> ver el estado de mis archivos
 git rm --cached --> remover un archivo del stagin  
 git config --> configurar git 
 git config --list --> las configuraciones que tiene y las cosas que le faltan
+git log --> ver el historial de cambios recibe el nombre de archivo como parametro
+git show --> muestra una serie de cambios realizados al archivo, parametro (nombre del archivo)
+
 
 Branch o Ramas
 Dividir el archivo en secciones o ramas, a cada seccion se le llama rama y va a tener un nombre, la rama principal por defecto es master.
