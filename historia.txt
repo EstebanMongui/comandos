@@ -1,0 +1,21 @@
+Git y github
+Stagin
+
+Area en memoria ram, completamente aislada, funciona en memoria ram y es donde al principio se guardarán los cambios y se crea el repositorio, una vez se hacen los cambios en el archivo se envía al stagin con el comando git add
+
+	
+git init → iniciando el entorno github
+git add → Agrega los cambios al stagin para trackearlo
+git commit -m mensaje → enviar al repositorio los cambios almacenados en sagin, cada commit es una nueva versión de cambios del archivo hacia el repositorio
+git checkout → traer los cambios desde el repositorio hacia la carpeta 
+git status --> ver el estado de mis archivos
+git rm --cached --> remover un archivo del stagin  
+
+
+Branch o Ramas
+Dividir el archivo en secciones o ramas, a cada seccion se le llama rama y va a tener un nombre, la rama principal por defecto es master.
+
+Hotfix: nombre en la industria de la rama de arreglo en caliente, crear una nueva rama para arreglar un bug
+Development: Nombre en la industria de la rama de pruebas 
+Merge: Unir los cambios de una rama con otra
+
