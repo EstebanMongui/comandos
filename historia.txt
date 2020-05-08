@@ -32,3 +32,4 @@ Hotfix: nombre en la industria de la rama de arreglo en caliente, crear una nuev
 Development: Nombre en la industria de la rama de pruebas 
 Merge: Unir los cambios de una rama con otra
 
+Esto es la rama future:
