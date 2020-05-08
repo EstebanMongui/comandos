@@ -10,7 +10,8 @@ git commit -m mensaje → enviar al repositorio los cambios almacenados en sagin
 git checkout → traer los cambios desde el repositorio hacia la carpeta 
 git status --> ver el estado de mis archivos
 git rm --cached --> remover un archivo del stagin  
-
+git config --> configurar git 
+git config --list --> las configuraciones que tiene y las cosas que le faltan
 
 Branch o Ramas
 Dividir el archivo en secciones o ramas, a cada seccion se le llama rama y va a tener un nombre, la rama principal por defecto es master.
