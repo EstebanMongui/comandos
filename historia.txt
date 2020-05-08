@@ -19,8 +19,9 @@ git show --> muestra una serie de cambios realizados al archivo, parametro (nomb
 git checkout # --> me muestra la versión que to le indique en el # de versión
 
 RAMAS
+git branch --> ver las ramas existentes
 git branch nameBranch --> crear rama, parametro nombre
-
+git merge --> fusionar las ramas 
 
 TRABAJANDO CON UN REPO REMETO
 
