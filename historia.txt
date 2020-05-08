@@ -18,6 +18,10 @@ git log --> ver el historial de cambios recibe el nombre de archivo como paramet
 git show --> muestra una serie de cambios realizados al archivo, parametro (nombre del archivo)
 git checkout # --> me muestra la versión que to le indique en el # de versión
 
+RAMAS
+git branch nameBranch --> crear rama, parametro nombre
+
+
 TRABAJANDO CON UN REPO REMETO
 
 git clone url --> Se trae una copia del master a mi carpeta y crea la base de todos los cambios historicos en el repositorio local
