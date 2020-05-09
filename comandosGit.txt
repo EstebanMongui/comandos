@@ -30,6 +30,13 @@ git push -->  envia los cambios y los archivos guardados en el repositorio local
 git fetch --> Trae los cambios del repositorio remoto al repositorio local pero no lo copia en los archivos, para que eso pase debo fusionar la version del repositorio local con el directorio de trabajo, a eso se le llama un merge
 git pull --> Trae los cambios del repositorio remoto al repositorio locar y al directorio de trabajo
 
+git remote add origin + dirección del repositorio --> Decirle a git que vamos a agregar un origen remoto de nuestros archivos
+git remote --> me muestra el origen
+git remote -v --> me muestra exactamente la direccion de origen
+
+
+
+
 Branch o Ramas
 Dividir el archivo en secciones o ramas, a cada seccion se le llama rama y va a tener un nombre, la rama principal por defecto es master.
 
