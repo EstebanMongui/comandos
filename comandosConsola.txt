@@ -1,0 +1,35 @@
+COMANDOS BASICOS
+
+pwd --> ver ubicación actual
+cd --> cambiar de directorio
+ls -l --> listar archivos
+
+CREAR Y MODIFICAR
+
+mkdir --> crear directorio
+touch --> crear archivo
+rm --> remover archivo
+mv --> mover rchivo
+cp --> copiar archivo
+nano --> editar archivo
+
+SIMBOLOS
+" > "  --> enviar la salida a un archivo
+" >> " --> agregar la salida al final de un archivo
+ |  --> se llama paip y sirve para conectar procesos
+
+
+MOSTRAR CONTENIDO de un ARCHIVO
+
+cat --> muestra todo el contenido
+head --> muestra las primeras lineas
+	head -n # --> muestra el # de lineas indicado
+tail --> muestra las ultimas lieas del archivo
+	tail -n # --> muestra el  # de lineas indicado
+
+OTROS
+
+grep --> Buscar palabras en un archivo, parametros: palabras clave y  archivo.txt
+sed --> reemplazar caracteres de un archivo 
+	ej. sed 's/palabra a reemplazar/reemplazo/g' nombreArchivo.txt
+ 
