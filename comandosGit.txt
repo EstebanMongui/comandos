@@ -61,9 +61,12 @@ git remote set-url origin urlssh  --> Cambiar la direccion de conexión con gitH
 origin --> nombre del master en repositorio remoto
 
 
-> CREAR ALIAS
+> CREAR ALIAS y VERSIONES
 
 alias aliasName = "comando a guardar en el alias"
 
+git tag -a v0.1 -m "mensaje de la versión" #id_commit --> crear versiones 
 
+git show-ref --tags --> ver la lista de tags
 
+git push origin --tags --> enviar tags al repositorio remoto
