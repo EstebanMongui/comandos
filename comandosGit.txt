@@ -31,6 +31,8 @@ git fetch --> Trae los cambios del repositorio remoto al repositorio local pero 
 git pull --> Trae los cambios del repositorio remoto al repositorio locar y al directorio de trabajo
 
 git remote add origin + dirección del repositorio --> Decirle a git que vamos a agregar un origen remoto de nuestros archivos
+git pull origin master --> enviar archivos de repositorio local a remoto
+git pull origin master --allow-unrelated-histories
 git remote --> me muestra el origen
 git remote -v --> me muestra exactamente la direccion de origen
 
