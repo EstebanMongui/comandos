@@ -61,7 +61,9 @@ git remote set-url origin urlssh  --> Cambiar la direccion de conexión con gitH
 origin --> nombre del master en repositorio remoto
 
 
+> CREAR ALIAS
 
+alias aliasName = "comando a guardar en el alias"
 
 
 
