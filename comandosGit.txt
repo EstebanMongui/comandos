@@ -48,3 +48,9 @@ Merge: Unir los cambios de una rama con otra
 
 Esto es la rama future:
 Aqui se pueden hacer nuevos cambios si alterar la rama master, luego a estos cambios les puedo hacer un merge para fusionarlos con la rama master
+
+>PROTOCOLOS DE SEGURIDAD
+
+Cifrado Asimetrico de un solo camino: llaves publicas y llaves privadas
+SSH (Secure SHell): Protocolo para conectar de manera segura mi repositorio local con mi repositorio remoto
+
