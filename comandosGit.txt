@@ -93,3 +93,13 @@ origin --> nombre del master en repositorio remoto
 >BUENAS PRACTICAS
  	- En el master solo se envia lo que ya estoy seguro de que esta listo para producción
 
+
+>SERVIDORES DE DESARROLLO (STAGIN)
+
+	pullrequest --> estado inrermedio antes de enviar el merge al stagin global
+	DevOps --> Administrador del entorno de desarrollo
+
+	Fork --> Tomar una copia del estado actual del proyecto y clonarlo unicamente en Github
+
+
+
