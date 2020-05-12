@@ -92,7 +92,8 @@ origin --> nombre del master en repositorio remoto
 
 >BUENAS PRACTICAS
  	- En el master solo se envia lo que ya estoy seguro de que esta listo para producción
-
+	- upstream --> nombre convencional de una rama a la que se le realizo un fork, 
+			es el equivalente a un apuntador al repositorio maestro
 
 >SERVIDORES DE DESARROLLO (STAGIN)
 
@@ -100,6 +101,23 @@ origin --> nombre del master en repositorio remoto
 	DevOps --> Administrador del entorno de desarrollo
 
 	Fork --> Tomar una copia del estado actual del proyecto y clonarlo unicamente en Github
+	
 
+>Haciendo deployment a un servidor
+	
+	integración continua:
+	Tavis CI --> Pagina que conecta automaticamente mis ramas de github con mis servidores
+	Jenkins --> Tambien permite automatizar la conexion entre github y servidores pero este se 
+		instala en el equipo
+	
+> Ignorar archivos en el repositorio con .gitignore
+	.gitignore --> archivo que se crea en la raiz del proyecto, en el cual se
+	agregan los nombres de los archivos a ingnorar, ej, llaves o imagenes, archivos binarios
+	entre otros.	
+
+> Readme.md --> un archivo en formato mark down, tambien se le puede agregar html
+
+	Editor.md --> editor para crear el archivo readme.md  
+		https://pandao.github.io/editor.md/en.html
 
 
