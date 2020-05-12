@@ -25,7 +25,7 @@ git merge --> fusionar las ramas
 
 TRABAJANDO CON UN REPO REMETO
 
-git clone url --> Se trae una copia del master a mi carpeta y crea la base de todos los cambios historicos en el repositorio local
+git clone url --> Se trae un proyecto de github a mi repo local y crea la base de todos los cambios historicos en el repositorio local
 git push -->  envia los cambios y los archivos guardados en el repositorio local al repositorio remoto
 git fetch --> Trae los cambios del repositorio remoto al repositorio local pero no lo copia en los archivos, para que eso pase debo fusionar la version del repositorio local con el directorio de trabajo, a eso se le llama un merge
 git pull --> Trae los cambios del repositorio remoto al repositorio locar y al directorio de trabajo
@@ -61,12 +61,35 @@ git remote set-url origin urlssh  --> Cambiar la direccion de conexión con gitH
 origin --> nombre del master en repositorio remoto
 
 
-> CREAR ALIAS y VERSIONES
+> CREAR ALIAS y TAGS (VERSIONES)
 
-alias aliasName = "comando a guardar en el alias"
+	alias aliasName = "comando a guardar en el alias"
 
-git tag -a v0.1 -m "mensaje de la versión" #id_commit --> crear versiones 
+	git tag -a v0.1 -m "mensaje de la versión" #id_commit --> crear versiones 
 
-git show-ref --tags --> ver la lista de tags
+	git show-ref --tags --> ver la lista de tags
 
-git push origin --tags --> enviar tags al repositorio remoto
+	git push origin --tags --> enviar tags al repositorio remoto
+
+	git tag -d nameDeleteTag --> eliminar un tag por su nombre
+	
+	git push origin :refs/tags/nameTagDelate --> borrar tags de gitHub	
+
+> RAMAS locales y remotas
+	git show branch --all --> ver el historíal de ramas
+	gitk --> abre la historia en un software de manera ultravisual
+    	git pull branchRepo branchName --> traer una rama del repositorio remoto al local
+	git push branchRepo branchName --> enviar una rama del repo local al repo remoto
+	git log --all --graph --decorate --oneline --> mostrar historial de cambios de manera grafia y resumida
+
+> MULTIPLES COLABORADORES
+
+	git clone url --> traer el repositorio remoto a mi repositorio local
+	*Para dar los permisos a otros usuarios:
+		- ir a settings en el repositorio remoto
+		- ir a collaborators 
+		- agregar colaboradores por su email(si es publico) o por su username
+
+>BUENAS PRACTICAS
+ 	- En el master solo se envia lo que ya estoy seguro de que esta listo para producción
+
