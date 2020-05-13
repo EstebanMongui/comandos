@@ -1,1 +1,1 @@
-Hols, bienvenidos a estas pruebas rebase, este es el inicio.
+Hola, bienvenidos a estas pruebas rebase, este es el inicio.
