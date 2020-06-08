@@ -7,7 +7,7 @@ TRABAJANDO CON UN REPO LOCAL
 	
 git init → iniciando el entorno github
 git add → Agrega los cambios al stagin para trackearlo
-git commit -m mensaje → enviar al repositorio los cambios almacenados en sagin, cada commit es una nueva versión de cambios del archivo hacia el repositorio
+git commit -m "mensaje" → enviar al repositorio los cambios almacenados en sagin, cada commit es una nueva versión de cambios del archivo hacia el repositorio
 git checkout → traer los cambios desde el repositorio hacia la carpeta 
 git status --> ver el estado de mis archivos
 git rm --force --> Elimina los archivos de Git y del disco duro
@@ -81,6 +81,9 @@ origin --> nombre del master en repositorio remoto
     	git pull branchRepo branchName --> traer una rama del repositorio remoto al local
 	git push branchRepo branchName --> enviar una rama del repo local al repo remoto
 	git log --all --graph --decorate --oneline --> mostrar historial de cambios de manera grafia y resumida
+	git branch -r --> ver las ramas remotas
+	git branch -a --> ver todas las ramas, locales y remotas
+	
 
 > MULTIPLES COLABORADORES
 
@@ -121,3 +124,40 @@ origin --> nombre del master en repositorio remoto
 		https://pandao.github.io/editor.md/en.html
 
 
+> git cherry-pick #commit --> Traer commits viejos al head de un branch.
+				*Es una mala practica, pero puede ser usado en casos especiales
+
+> git ammend --> Reconstruir un commid, sirve para poder añadir cambios a un commit ya hecho y 
+		poder guardarlo sobre el mismo commit, sin necesidad de crar uno nuevo.
+
+
+> EN CASO DE EMERGENCIA
+	> git reflog --> muestra absolutamente todo el historial y los cambios
+	> git reset #Commithash --> volver al commit indicado en el #hash
+	
+> BUSCAR EN ARCHIVOS Y COMMITS
+	
+	> git grep "palabra" --> buscar en que archivos usé la palbra
+	> git grep -n "palabra" --> buscar la palabra, en que archivos la usé y el # de linea
+	> git grep -c "palabra" --> contar la cantidad de veces que una palabra ocurre dentro de un archivo
+	
+	> git log -S "palabra" --> busca la palabra en el historial de commits
+
+> Comandos y recursos colaborativos en Git y Github
+
+	> git shortlog --> muestra cuantos commits ha hecho cada miembro del equipo
+	> git shortlog -sn --> muestra las personas que han realizado commits y cuantos ha realizado
+	> git shortlog -sn --all --> muestra todos los comits
+	> git shortlog -sn --all --no-merges --> muestra la cantidad de commits por persona, pero sin contar los merges
+	
+	> git config --global alias.commandName "comando" --> Crear un comando global personalizado.
+	
+	> git blame -c fileName --> mostrar quien ha hecho que cambios en el archivo
+	> git blame filename -L#line,#endLine --> ver quien hizo que cambios dentro de las lineas
+						especificadas.	
+
+> git comando --help --> ver como esta conformado internamente un comando 
+
+> insights en github: ver las estadisticas de lo que se ha hecho en el repositorio remoto
+
+ 
